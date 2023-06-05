@@ -1,8 +1,22 @@
 <!DOCTYPE html>
 <html>
-  <body>
-    <script type="text/javascript" src="./script.js">
-</script>
-  </body>
+
+<body>
+
+  <h3 id="url">https://localhost:8080/</h3>
+
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name"><br><br>
+
+    <label for="year">Graduation year:</label>
+    <input type="number" id="year" name="year" min="2000"><br><br>
+
+    <input type="button" id="button" value="Submit" onclick="handleSubmit()"><br><br>
+  </form>
+
+  <script type="text/javascript" src="./script.js">
+  </script>
+</body>
 
 </html>
