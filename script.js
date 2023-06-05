@@ -1,6 +1,5 @@
 // your code here
 function handleSubmit(){
-    // e.preventDefault();
     var name = document.getElementById('name').value;
     var year = document.getElementById('year').value;
     let url;
